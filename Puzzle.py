@@ -15,3 +15,7 @@ def solve_puzzle(Board, Source, Destination):
                 queue.append(((ni, nj), path + [(ni, nj)]))
     # if no path to destination is found, return None
     return None
+
+#3a) In order to solve for the problem is through the Breadth-First Search (BFS) through visiting each cell we can check for an empty one then add it to the queue
+
+#3c) Time complexity is O(mn)
