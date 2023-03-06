@@ -15,3 +15,5 @@ def Prims(G):
       # create a list of tuples representing the edges of the MST
     mst = [(parent[i], i, G[i][parent[i]]) for i in range(1, n)]
     return mst
+
+#2b) Kruskal's uses a greedy algorithm approach while Prim's algorithm uses priority queue 
